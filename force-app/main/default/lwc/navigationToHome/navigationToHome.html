@@ -1,0 +1,75 @@
+<template>
+    <lightning-card title="Navigation to Home Page">
+        <div class="slds-var-m-around_medium">
+            <lightning-button variant="brand"
+            label="Navigate to Home"
+            onclick={navigationToHome}></lightning-button>
+            <div class="slds-var-m-around_medium">
+                <lightning-button variant="brand"
+            label="Navigate to Chatter"
+            onclick={navigationToChatter}></lightning-button>
+            </div> 
+        </div>
+        <div class="slds-var-m-around_medium">
+            <lightning-button variant="brand"
+            label="New Record"
+            onclick={navigationToRecordPage}></lightning-button>
+        </div>
+    </lightning-card>
+    <lightning-card title="Navigation to record Page with Default values">
+        <div class="slds-var-m-around_medium">
+            <lightning-button variant="brand"
+            label="Navigate to Record Page with defaults"
+            onclick={navigationToRecordPageWithDefault}></lightning-button>
+        </div>
+    </lightning-card>
+    <lightning-card title="Navigation to record list">
+        <div class="slds-var-m-around_medium">
+            <lightning-button variant="brand"
+            label="Navigate to Recent record list"
+            onclick={navigationToRecentRecordList}></lightning-button>
+        </div>
+    </lightning-card>
+    <lightning-card title="Navigation to Files">
+        <div class="slds-var-m-around_medium">
+            <lightning-button variant="brand"
+            label="Navigate to Files"
+            onclick={navigationToFiles}></lightning-button>
+        </div>
+    </lightning-card>
+    <lightning-card title="Navigation to record Page in view and Edit Mode">
+        <div class="slds-var-m-around_medium">
+            <div class="slds-var-m-around_medium"><lightning-button variant="brand"
+            label="Navigate to Record Page in veiw Mode"
+            onclick={recordInView}></lightning-button>
+        </div>
+           <div class="slds-var-m-around_medium"> <lightning-button variant="brand"
+            label="Navigate to Record Page in Edit Mode"
+            onclick={recordInEdit}></lightning-button>
+        </div>
+        </div>
+    </lightning-card>
+    <lightning-card title="Navigation to Tab">
+        <div class="slds-var-m-around_medium">
+            <lightning-button variant="brand"
+            label="Navigate to Tab"
+            onclick={navigateToTab}></lightning-button>
+        </div>
+      
+    </lightning-card>
+    <lightning-card title="Navigation to Record Relationship Page">
+        <div class="slds-var-m-around_medium">
+            <lightning-button variant="brand"
+            label="Navigate to Record relaptionship Page"
+            onclick={recordRelationshipPage}></lightning-button>
+        </div> 
+    </lightning-card>
+    <lightning-card title="Navigation to external Web Page">
+        <div class="slds-var-m-around_medium">
+            <lightning-button variant="brand"
+            label="Navigate to external Web Page"
+            onclick={navigateToWeb}></lightning-button>
+        </div> 
+    </lightning-card>
+
+</template>
